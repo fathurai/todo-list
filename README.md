@@ -1,2 +1,3 @@
 # todo-list
-tecnology: Html, Css, Javascript
+
+technology: Html, Css, Javascript
