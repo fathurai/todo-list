@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List | Jadwal kegiatan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container"> 
+    <header>
+    <div> 
+      <h2>Jadwal Kegiatan</h2>
+    </div>
+    <div class="tanggal-waktu">
+        <div id="tanggal">tanggal belum diatur</div>
+        <div id="waktu">jam belum diatur</div>
+      </div>
+    </header>
+    <section class="navigasi">
+      <button id="sebelumnya">←</button>
+      <div id="hari-dipilih">Hari Ini</div>
+      <button id="selanjutnya">→</button>
+    </section>
+    <!-- List -->
+    <main>
+      <ul id="todo-list"></ul>
+      <div class="form-tambah">
+        <input type="time" id="input-jam" />
+        <input type="text" id="input-task" placeholder="Apa tugas hari ini?" />
+        <button id="tambah-btn">Tambah</button>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
